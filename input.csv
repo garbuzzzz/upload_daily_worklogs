@@ -1,0 +1,2 @@
+jiraURL,jirauser,jirapassword,NDays,downloadPath,batFilePath
+https://id.atlassian.com/login,pavel.garbuz@jetbi.com,Efremenk02068_,6,C:\Users\Lenovo\Downloads\testChrome,./secondScript.bat
