@@ -1,2 +1,2 @@
 jiraURL,jirauser,jirapassword,NDays,downloadPath,batFilePath
-https://id.atlassian.com/login,<here_your_login>@jetbi.com,<here_your_password>,6,C:\Users\Lenovo\Downloads\testChrome,./secondScript.bat
+https://id.atlassian.com/login,<here_your_login>@jetbi.com,<here_your_password>,6,C:\Users\<your_computer_name>\Downloads\testChrome,./secondScript.bat

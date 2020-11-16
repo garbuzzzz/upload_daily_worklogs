@@ -14,6 +14,6 @@ let str = process.argv.slice(2)[0];
 		console.log(str);
 		await driver.findElement(By.name('q')).sendKeys(str)
 	} catch (error) {
-		
+
 	}
 })();

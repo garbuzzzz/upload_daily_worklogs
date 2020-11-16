@@ -1,7 +1,6 @@
 {
 		"name": "firsttask",
 		"scripts": {
-				"test": "mocha --timeout 30000"
 		},
 		"license": "ISC",
 		"devDependencies": {
