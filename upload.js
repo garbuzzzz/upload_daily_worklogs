@@ -59,6 +59,7 @@ function getInputData(data) {
 				await driver.get(`https://jet-bi.atlassian.net/plugins/servlet/ac/io.tempo.jira/tempo-app#!/reports/logged-time?columns=WORKED_COLUMN&dateDisplayType=days&from=${fromTimeString}&groupBy=project&groupBy=worker&order=ASCENDING&periodKey&periodType=FIXED&showCharts=true&sortBy=TITLE_COLUMN&subPeriodType=MONTH&to=${nowTimeString}&viewType=TIMESHEET`);
 				await driver.wait(until.elementLocated(By.css('iframe')));
 				await driver.switchTo().frame(0);
+				await driver.sleep(2000);
 				await driver.findElement(By.css("div[data-testid='right-section'] button:nth-child(2)")).click();
 				await driver.wait(until.elementLocated(By.css('div[data-testid="tuiModal"] article:nth-child(2)')));
 				await driver.findElement(By.css('div[data-testid="tuiModal"] article:nth-child(2)')).click();
